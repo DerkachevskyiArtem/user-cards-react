@@ -2,8 +2,6 @@ import React, { Fragment } from 'react';
 import UserCard from './components/UserCard/UserCard';
 
 function App() {
-  const userCard = React.createElement(UserCard);
-
   const users = [
     { id: 1, name: 'John Doe', gender: 'male' },
     { id: 2, name: 'Jane Smith', gender: 'female' },
